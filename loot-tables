@@ -1,0 +1,170 @@
+########################################################
+######################Ped Loots#########################
+########################################################
+    ['Basic'] = {
+        [1] = {
+            name = "tosti",
+        },
+        [2] = {
+            name = "coffee",
+        },
+    },
+    ['Ammo'] = {
+        [1] = {
+            name = "pistol_ammo",
+        },
+        [2] = {
+            name = "snp_ammo",
+        },
+        [3] = {
+            name = "smg_ammo",
+        },
+        [4] = {
+            name = "rifle_ammo",
+        },
+        [5] = {
+            name = "shotgun_ammo",
+        }, 
+    },
+    ['NormalWeapons'] = {
+        [1] = {
+            name = "weapon_knife",
+        },
+        [2] = {
+            name = "weapon_machete",
+        },
+        [3] = {
+            name = "weapon_combatpistol",
+        },
+    },
+    ['HeavyWeapons'] = {
+        [1] = {
+            name = "weapon_snspistol",
+        },
+        [2] = {
+            name = "weapon_sniperrifle",
+        },
+        [3] = {
+            name = "weapon_vintagepistol",
+        },
+        [4] = {
+            name = "weapon_pumpshotgun",
+        },
+        [5] = {
+            name = "weapon_smg",
+        },
+        [6] = {
+            name = "weapon_assaultrifle",
+        },
+        [7] = {
+            name = "weapon_assaultrifle_mk2",
+        },
+        [8] = {
+            name = "redphone",
+        },
+    }
+}
+
+########################################################
+###################Vehicle-AirDrops#####################
+########################################################
+
+    allowed_vehicles = { -- The vehicle spawncodes you want to allow to be airdropped.
+        "brad",
+		"uparmor",
+		"abrams",
+		"abrams2",
+		"brad2",
+		"hasrad",
+		"uparmor",
+		"uparmorw",
+       	"hmvs"
+    },
+
+########################################################
+####################Random-Airdrops#####################
+########################################################
+
+    [1] = {
+        name = 'weapon_knife', --Code of the item (need to be match with qb-core/shared/items.lua)
+        type = 'weapon', --Type of the item above ("weapon", "item", "money")
+        label = 'Knife', --Label for this item
+        min_amount = 1, --Minimum amount of this item in the airdrop
+        max_amount = 1, --Maximum amount of this item in the airdrop
+        ['probability'] = 25.0, --Chance the player will get this item (IMPORTANT: THE TOTAL "probability" IN Config.Loots MUST EQUAL 100 OTHERWISE IT MIGHT BREAK THE CALCULATION)
+    },
+
+    [2] = {
+        name = 'weapon_mg',
+        type = 'weapon',
+        label = 'Weapon MG',
+        min_amount = 1,
+        max_amount = 1,
+        ['probability'] = 25.0,
+
+    },
+
+    [3] = {
+        name = 'casinochips',
+        type = 'item',
+        label = 'casino chips',
+        min_amount = 5,
+        max_amount = 12,
+        ['probability'] = 10.0,
+
+    },
+
+    [4] = {
+        name = 'water_bottle',
+        type = 'item',
+        label = 'water bottle',
+        min_amount = 10,
+        max_amount = 25,
+        ['probability'] = 10.0,
+
+    },
+
+    [5] = {
+        name = 'whiskey',
+        type = 'item',
+        label = 'whiskey',
+        min_amount = 1,
+        max_amount = 5,
+        ['probability'] = 10.0,
+    },
+
+    [6] = {
+        name = 'greenphone',
+        type = 'item',
+        label = 'greenphone',
+        min_amount = 1, 
+        max_amount = 2, 
+        ['probability'] = 10.0,
+    },
+
+    [7] = {
+        name = 'cash',
+        type = 'cash',
+        label = 'Cash',
+        min_amount = 20,
+        max_amount = 50,
+        ['probability'] = 10.0,
+
+    },
+}
+
+########################################################
+######################guess-Airdrops####################
+########################################################
+
+
+
+
+
+
+
+
+
+
+
+
