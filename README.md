@@ -22,20 +22,35 @@ No thankfully you do not NEED the launcher, yet we recommend that you use our la
 
 ## Controls
 TAB : - 'Open Inventory',
+
 ` : - 'Cycle Proximity',
+
 M : - 'Open Phone',
+
 B : - 'Toggle Seat Belt',
+
 L ALT : - 'Open Target Menu',
+
 F1 : - 'Radial Menu',
+
 I : - 'Open Hud Menu',
+
 L ALT : - 'Talk Over Radio',
+
 HOME : - 'Open Scoreboard',
+
 L : - 'Vehicle Locks',
+
 G : 'Toggle Engine',
+
 B : - 'Pointer Emote',
+
 Z : - 'Keybind Slots',
+
 X : - 'Hands Up Emote',
+
 NUM : - 'Use Item Slots',
+
 Y : - 'Cruise Control',
 
 
